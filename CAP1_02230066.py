@@ -47,7 +47,7 @@ def calculate_score(opponent_choice, desired_outcome, your_choice):
 
 def main():
     #  input file path
-    input_file = r"C:\Users\Acer\Downloads\input_6_cap1.txt"
+    input_file = r"input_6_cap1.txt"
     
     rounds = read_input_file(input_file)
     
@@ -66,5 +66,5 @@ def main():
     
     print("Total Score:", total_score)
 
-if __name__ == "__main__":
-    main()
+
+main()
